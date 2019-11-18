@@ -19,6 +19,10 @@
     {
       id: "KW_6XpVfgKs",
       desc: "Tequila - The Champs - Remix"
+    },
+    {
+      id: "koTZc4gSQgk",
+      desc: "Da Tweekaz - Tequila"
     }
   ];
   import Player from "./Player.svelte";
