@@ -21,7 +21,7 @@
       desc: "Tequila - The Champs - Remix"
     }
   ];
-  import Player from "./player.svelte";
+  import Player from "./Player.svelte";
 </script>
 
 <style>
