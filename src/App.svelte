@@ -9,10 +9,6 @@
       desc: "Salsa Tequila"
     },
     {
-      id: "gBeOSmb_f3U",
-      desc: "Tequila - The Champs - Karaoke"
-    },
-    {
       id: "CNLD9Qnki2o",
       desc: "Tequila - Friends"
     },
