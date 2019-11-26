@@ -7,6 +7,10 @@ body {
 
 body {
   background-color: #000;
+  background-image: url(/tequila-gang.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   margin: 0;
   padding: 8px;
