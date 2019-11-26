@@ -22,6 +22,17 @@
     }
   ];
   import Player from "./Player.svelte";
+
+  document.addEventListener("DOMContentLoaded", () => {
+    let action = Math.random();
+    if (action < 0.1) {
+      document.location.href = "https://www.vinmonopolet.no/vmp/search/?q=tequila";
+    } else if (action < 0.2) {
+      document.location.href = "https://duckduckgo.com/?q=tequila";
+    } else {
+      // Do nothing, load site
+    }
+  });
 </script>
 
 <style>
