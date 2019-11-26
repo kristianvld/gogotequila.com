@@ -27,8 +27,7 @@
 
   .animate-load {
     stroke-dasharray: 25%, 275%;
-    animation: dash 1.8s infinite linear alternate-reverse,
-      rotate 1s infinite linear;
+    animation: dash 1.8s infinite linear alternate-reverse, rotate 1s infinite linear;
   }
 
   @keyframes rotate {
@@ -52,8 +51,8 @@
 
 <div class="container">
   <div class="icon animate-load">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" stroke="#fff">
-      <path d="M39 20a19 19 0 1 1-38 0 19 19 0 1 1 38 0z" />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" stroke="#fff" fill="None">
+      <circle cx="50%" cy="50%" r="45%" stroke="white" fill="None" />
     </svg>
   </div>
 </div>
